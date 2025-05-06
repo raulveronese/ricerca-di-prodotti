@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricerca di Prodotti</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1 style="color: #fff;">Ricerca di Prodotti</h1>
+
+  <form id="form-produto">
+    <input type="text" id="nome" placeholder="Nome del Prodotto o Codici a Barre" required />
+    <input type="text" id="corredor" placeholder="Corridoio/percorso" required />
+    <input type="text" id="prateleira" placeholder="Mensola/ripiano" required />
+    <button type="submit">Salvar</button>
+  </form>
+
+  <input type="text" id="busca" placeholder="Ricerca Prodotto" />
+
+  <div>
+    <img src="./Logo_Bernava.avif" alt="logo bernava">
+  </div>
+	
+	
+	
+
+  <ul id="lista-produtos"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
